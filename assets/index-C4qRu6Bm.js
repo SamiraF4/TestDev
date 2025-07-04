@@ -1,4 +1,4 @@
-(function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))t(n);new MutationObserver(n=>{for(const e of n)if(e.type==="childList")for(const i of e.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&t(i)}).observe(document,{childList:!0,subtree:!0});function a(n){const e={};return n.integrity&&(e.integrity=n.integrity),n.referrerPolicy&&(e.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?e.credentials="include":n.crossOrigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function t(n){if(n.ep)return;n.ep=!0;const e=a(n);fetch(n.href,e)}})();const c=`<section class="destinations section">
+(function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))t(n);new MutationObserver(n=>{for(const e of n)if(e.type==="childList")for(const i of e.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&t(i)}).observe(document,{childList:!0,subtree:!0});function a(n){const e={};return n.integrity&&(e.integrity=n.integrity),n.referrerPolicy&&(e.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?e.credentials="include":n.crossOrigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function t(n){if(n.ep)return;n.ep=!0;const e=a(n);fetch(n.href,e)}})();const o=`<section class="destinations section">
   <div class="container destinations__container">
     <h2 class="destinations__title">
       Voyage de noces, quelle destination choisir ?
@@ -60,7 +60,7 @@
     </div>
   </div>
 </section>
-`,o=`<section class="unique section">
+`,r=`<section class="unique section">
   <div class="container unique__content">
     <h2 class="unique__title">Ce qui nous rend unique</h2>
     <p class="unique__intro">
@@ -70,7 +70,7 @@
 
     <div class="unique__image-block">
       <img
-        src="/TestDev/public/assets/images/transats.png"
+        src="/TestDev/assets/images/transats.png"
         alt="Plage paradisiaque"
         class="unique__image"
       />
@@ -78,7 +78,7 @@
       <div class="unique__advantages">
         <div class="advantage-card">
           <img
-            src="/TestDev/public/assets/icons/oreille.png"
+            src="/TestDev/assets/icons/oreille.png"
             alt="À votre écoute"
             class="advantage-card__icon"
           />
@@ -93,7 +93,7 @@
 
         <div class="advantage-card">
           <img
-            src="/TestDev/public/assets/icons/mesure.png"
+            src="/TestDev/assets/icons/mesure.png"
             alt="Création sur-mesure"
             class="advantage-card__icon"
           />
@@ -108,7 +108,7 @@
 
         <div class="advantage-card">
           <img
-            src="/TestDev/public/assets/icons/vip.png"
+            src="/TestDev/assets/icons/vip.png"
             alt="Prestations exclusives"
             class="advantage-card__icon"
           />
@@ -136,7 +136,7 @@
     </div>
   </div>
 </section>
-`,r=`<section class="section-devis">
+`,c=`<section class="section-devis">
   <div id="devis-rectangle">
     <div id="devis-text">
       <h2>Demandez votre devis en ligne gratuitement !</h2>
@@ -161,7 +161,7 @@
   <div class="container mylist__content">
     <div class="centered-container">
       <img
-        src="/TestDev/public/assets/icons/logo.png"
+        src="/TestDev/assets/icons/logo.png"
         alt="Logo centré"
         class="centered-img"
       />
@@ -175,7 +175,7 @@
     <div class="mylist__steps">
       <div class="mylist__step">
         <img
-          src="/TestDev/public/assets/icons/formulaire.png"
+          src="/TestDev/assets/icons/formulaire.png"
           alt="Formulaire"
           class="mylist__icon"
         />
@@ -186,7 +186,7 @@
       </div>
       <div class="mylist__step">
         <img
-          src="/TestDev/public/assets/icons/pinceau.png"
+          src="/TestDev/assets/icons/pinceau.png"
           alt="Pinceau"
           class="mylist__icon"
         />
@@ -197,7 +197,7 @@
       </div>
       <div class="mylist__step">
         <img
-          src="/TestDev/public/assets/icons/enveloppe.png"
+          src="/TestDev/assets/icons/enveloppe.png"
           alt="Invitation"
           class="mylist__icon"
         />
@@ -215,8 +215,8 @@
   </div>
 </section>
 `;document.getElementById("app").innerHTML=`
-  ${c}
   ${o}
   ${r}
+  ${c}
   ${d}
 `;
