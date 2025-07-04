@@ -10,7 +10,7 @@
     <div class="cards">
       <div
         class="card card--australie"
-        style="--bg: url('/assets/images/australie.png')"
+        style="--bg: url('/TestDev/assets/images/australie.png')"
       >
         <div class="card__content">
           <h3>📍 Australie</h3>
@@ -24,7 +24,7 @@
 
       <div
         class="card card--maldives"
-        style="--bg: url('/assets/images/maldives.png')"
+        style="--bg: url('/TestDev/assets/images/maldives.png')"
       >
         <div class="card__content">
           <h3>📍 Maldives</h3>
@@ -35,7 +35,7 @@
 
       <div
         class="card card--tanzanie"
-        style="--bg: url('/assets/images/tanzanie.png')"
+        style="--bg: url('/TestDev/assets/images/tanzanie.png')"
       >
         <div class="card__content">
           <h3>📍 Tanzanie</h3>
@@ -49,7 +49,7 @@
 
       <div
         class="card card--thailande"
-        style="--bg: url('/assets/images/thaïlande.png')"
+        style="--bg: url('/TestDev/assets/images/thailande.png')"
       >
         <div class="card__content">
           <h3>📍 Thaïlande</h3>
