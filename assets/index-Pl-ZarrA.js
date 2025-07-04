@@ -4,13 +4,13 @@
       Voyage de noces, quelle destination choisir ?
     </h2>
     <p class="destinations__subtitle">
-      Découvrez notre sélection de voyage de noces à la hauteur de vos envies!
+      Découvrez notre sélection de voyage de noces à la hauteur de vos envies !
     </p>
 
     <div class="cards">
       <div
         class="card card--australie"
-        style="--bg: url('/TestDev/assets/images/australie.png')"
+        style="--bg: url('assets/images/australie.png')"
       >
         <div class="card__content">
           <h3>📍 Australie</h3>
@@ -24,7 +24,7 @@
 
       <div
         class="card card--maldives"
-        style="--bg: url('/TestDev/assets/images/maldives.png')"
+        style="--bg: url('assets/images/maldives.png')"
       >
         <div class="card__content">
           <h3>📍 Maldives</h3>
@@ -35,7 +35,7 @@
 
       <div
         class="card card--tanzanie"
-        style="--bg: url('/TestDev/assets/images/tanzanie.png')"
+        style="--bg: url('assets/images/tanzanie.png')"
       >
         <div class="card__content">
           <h3>📍 Tanzanie</h3>
@@ -49,7 +49,7 @@
 
       <div
         class="card card--thailande"
-        style="--bg: url('/TestDev/assets/images/thailande.png')"
+        style="--bg: url('assets/images/thailande.png')"
       >
         <div class="card__content">
           <h3>📍 Thaïlande</h3>
