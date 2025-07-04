@@ -49,7 +49,7 @@
 
       <div
         class="card card--thailande"
-        style="--bg: url('assets/images/thaïlande.png')"
+        style="--bg: url('assets/images/thailande.png')"
       >
         <div class="card__content">
           <h3>📍 Thaïlande</h3>
