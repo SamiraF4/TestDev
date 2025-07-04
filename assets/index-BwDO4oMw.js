@@ -10,7 +10,7 @@
     <div class="cards">
       <div
         class="card card--australie"
-        style="--bg: url('./assets/images/australie.png')"
+        style="--bg: url('images/australie.png')"
       >
         <div class="card__content">
           <h3>📍 Australie</h3>
@@ -22,10 +22,7 @@
         </div>
       </div>
 
-      <div
-        class="card card--maldives"
-        style="--bg: url('./assets/images/maldives.png')"
-      >
+      <div class="card card--maldives" style="--bg: url('images/maldives.png')">
         <div class="card__content">
           <h3>📍 Maldives</h3>
           <p>Les Maldives et leurs trésors sous-marins.</p>
@@ -33,10 +30,7 @@
         </div>
       </div>
 
-      <div
-        class="card card--tanzanie"
-        style="--bg: url('./assets/images/tanzanie.png')"
-      >
+      <div class="card card--tanzanie" style="--bg: url('images/tanzanie.png')">
         <div class="card__content">
           <h3>📍 Tanzanie</h3>
           <p>
@@ -49,7 +43,7 @@
 
       <div
         class="card card--thailande"
-        style="--bg: url('./assets/images/thailande.png')"
+        style="--bg: url('images/thailande.png')"
       >
         <div class="card__content">
           <h3>📍 Thaïlande</h3>
