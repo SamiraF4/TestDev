@@ -1,5 +1,7 @@
 # Test Technique Front-End — Shin Agency
 
+![Uploading TEST-dev.jpg…]()
+
 Ce projet est un test technique pour l'agence **Shin Agency**, réalisé dans le cadre d’un processus de recrutement pour une alternance en tant que **Développeur Front-End**.
 
 ## Stack utilisée
