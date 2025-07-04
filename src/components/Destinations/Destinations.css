@@ -1,0 +1,128 @@
+.destinations {
+  padding-block: 4rem;
+  background-color: var(--color-light);
+}
+
+.destinations__title {
+  font-family: "Kalam", cursive;
+  font-size: 42px;
+  color: #29abb7;
+  line-height: 67px;
+  font-weight: 400;
+  max-width: 793px;
+}
+
+.destinations__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #575757;
+  letter-spacing: 0.41px;
+  margin-top: 8px;
+  line-height: 21px;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.card {
+  position: relative;
+  width: 267px;
+  height: 371px;
+  background-image: var(--bg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.card__content {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  color: white;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.card__content h3 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card__content p {
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.stars {
+  font-size: 16px;
+  color: white;
+}
+
+.card--australie::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(64, 32, 4, 0.7),
+    rgba(216, 216, 216, 0)
+  );
+  z-index: 1;
+}
+
+.card--maldives {
+  background-position: right center;
+}
+
+.card--maldives::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(116, 19, 5, 0.7),
+    rgba(216, 216, 216, 0)
+  );
+  z-index: 1;
+}
+
+.card--tanzanie::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(78, 50, 4, 0.7),
+    rgba(216, 216, 216, 0)
+  );
+  z-index: 1;
+}
+
+.card--thailande::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(54, 142, 140, 0.7),
+    rgba(216, 216, 216, 0)
+  );
+  z-index: 1;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}

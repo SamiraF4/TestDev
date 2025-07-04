@@ -1,0 +1,105 @@
+.unique__title {
+  text-align: center;
+  font-family: "Kalam", cursive;
+  font-size: 42px;
+  line-height: 67px;
+  font-weight: 400;
+  color: #29abb7;
+  margin-bottom: var(--spacing-sm);
+}
+
+.unique__intro {
+  text-align: center;
+  margin: 0 auto var(--spacing-md);
+  font-size: 14px;
+  line-height: 21px;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+}
+
+.unique__image-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 40px;
+}
+
+.unique__image {
+  width: 576px;
+  height: 301px;
+  object-fit: cover;
+  border: 0;
+  flex-shrink: 0;
+}
+
+.unique__advantages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 54px;
+}
+
+.advantage-card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+}
+
+.advantage-card__icon {
+  width: 64px;
+  height: 64px;
+}
+
+.advantage-card__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  color: #29abb7;
+  margin-bottom: 0.3rem;
+  letter-spacing: -0.15px;
+}
+
+.advantage-card__text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #575757;
+  margin: 0;
+}
+
+.unique__text-block {
+  max-width: 589px;
+  margin-top: var(--spacing-md);
+  font-family: "Poppins", sans-serif;
+}
+
+.unique__text-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  color: #29abb7;
+  margin-bottom: 0.5rem;
+}
+
+.unique__text-paragraph {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #575757;
+  margin-bottom: 0.5rem;
+}
+
+.unique__text-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #29abb7;
+  text-decoration: underline;
+  display: inline-block;
+}

@@ -1,0 +1,98 @@
+.mylist {
+  text-align: center;
+  padding: var(--spacing-lg) 0;
+}
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-img {
+  width: 160px;
+  height: auto;
+}
+
+.mylist__logo {
+  display: block;
+  margin: 0 auto var(--spacing-sm);
+  width: 160px;
+  height: auto;
+}
+
+.mylist__description {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #575757;
+  margin-bottom: 10px;
+  margin: 0 auto var(--spacing-md);
+  padding-bottom: 30px;
+}
+
+.mylist__steps {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing-md);
+  text-align: left;
+}
+
+.mylist__step {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  max-width: 320px;
+  flex: 1 1 200px;
+}
+
+.mylist__icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.mylist__step p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #575757;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.mylist__step p strong {
+  color: #29abb7;
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+.mylist__button {
+  margin-top: var(--spacing-md);
+  width: 267px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #29abb7;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #575757;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.mylist__button:hover {
+  background-color: #29abb7;
+  color: white;
+}
+.mylist__text span {
+  color: #29abb7;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-block;
+}
