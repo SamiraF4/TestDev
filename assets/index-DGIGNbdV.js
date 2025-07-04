@@ -70,7 +70,7 @@
 
     <div class="unique__image-block">
       <img
-        src="/TestDev/src/assets/images/transats.png"
+        src="/TestDev/public/assets/images/transats.png"
         alt="Plage paradisiaque"
         class="unique__image"
       />
@@ -78,7 +78,7 @@
       <div class="unique__advantages">
         <div class="advantage-card">
           <img
-            src="/TestDev/src/assets/icons/oreille.png"
+            src="/TestDev/public/assets/icons/oreille.png"
             alt="À votre écoute"
             class="advantage-card__icon"
           />
@@ -93,7 +93,7 @@
 
         <div class="advantage-card">
           <img
-            src="/TestDev/src/assets/icons/mesure.png"
+            src="/TestDev/public/assets/icons/mesure.png"
             alt="Création sur-mesure"
             class="advantage-card__icon"
           />
@@ -108,7 +108,7 @@
 
         <div class="advantage-card">
           <img
-            src="/TestDev/src/assets/icons/vip.png"
+            src="/TestDev/public/assets/icons/vip.png"
             alt="Prestations exclusives"
             class="advantage-card__icon"
           />
